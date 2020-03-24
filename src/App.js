@@ -42,7 +42,7 @@ class App extends Component {
             <Switch>
               <Route exact path={["/", "/posts"]} component={PostIndex} />
               <Route exact path="/add" component={PostAdd} />
-              {/* <Route exact path="/posts/:id" component={PostShow} /> */}
+              <Route exact path="/posts/:id" component={PostShow} />
             </Switch>
           </div>
         </div>

@@ -50,6 +50,7 @@ export default class PostAdd extends Component {
             .then((result) => {
                 this.clearPost();
                 console.log(result.data);
+                this.props.history.push('/posts')
             }).catch((err) => {
                 console.log(err);
             });
